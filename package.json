@@ -1,0 +1,42 @@
+{
+  "name": "alx-files_manager",
+  "version": "1.0.0",
+  "description": "`Back-end` `JavaScript` `ES6` `NoSQL` `MongoDB` `Redis` `NodeJS` `ExpressJS` `Kue`",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint",
+    "check-lint": "lint [0-9]*.js",
+    "dev": "nodemon --exec babel-node --presents ./node_modules/@babel/preset-env",
+    "test": "/.bin/mocha --require @babel/register --exit"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bull": "^4.12.3",
+    "express": "^4.19.2",
+    "image-thumbnail": "^1.0.15",
+    "mime-types": "^2.1.35",
+    "mongodb": "^6.6.1",
+    "redis": "^4.6.13",
+    "sha1": "^1.1.1",
+    "superagent": "^9.0.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.5",
+    "@babel/core": "^7.24.5",
+    "@babel/node": "^7.23.9",
+    "@babel/preset-env": "^7.24.5",
+    "@babel/register": "^7.23.7",
+    "chai": "^5.1.1",
+    "chai-http": "^4.4.0",
+    "eslint": "^9.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jest": "^28.5.0",
+    "mocha": "^10.4.0",
+    "nodemon": "^3.1.0",
+    "request": "^2.88.2",
+    "sinon": "^17.0.2"
+  }
+}
